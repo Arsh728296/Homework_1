@@ -11,12 +11,11 @@ function App() {
 
   const [state, setState] = useState(null); 
 
+  
 
   function handleChange(option, color ){
-      console.log(option, 'option')
-      console.log(color, 'color')
-      state.messages.forEach((message)=>{
-         message[option] = color;
+      state.messages.map((message)=>{
+        return  message[option] = color;
       })
   
   setState(state)
