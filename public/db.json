@@ -1,7 +1,18 @@
 {
+    "users": [
+      {
+        "ID": "1",
+        "name": "Arshak",
+        "surname": "Nersisyan",
+        "email": "arshaknersisyan@mail.ru",
+        "password": "barevdzez123",
+        "phoneNumber": "077728296"
+      }
+    ],
     "messages": [
       {
         "id": "1",
+        "ownerID": "2",
         "name": "Alex",
         "date": "17/05/2021",
         "text": "Hello Hayk",
@@ -10,6 +21,7 @@
       },
       {
         "id": "2",
+        "ownerID": "1",
         "name": "Hayk",
         "date": "21/03/2020",
         "text": "I`ll be late today",
@@ -18,6 +30,7 @@
       },
       {
         "id": "3",
+        "ownerID": "1",
         "name": "Karen",
         "date": "13/09/2021",
         "text": "Hey man, when can you come to hang over? I`ll be free today",
@@ -27,6 +40,7 @@
       {
         "id": "4",
         "name": "Alex",
+        "ownerID": "1",
         "date": "13/09/2021",
         "text": "Hi, maybe I`ll be free after work today. I`ll call you",
         "textColor": "black",
@@ -35,6 +49,7 @@
       },
       {
         "id": "5",
+        "ownerID": "2",
         "name": "Hayk",
         "date": "21/03/2020",
         "text": "Yesterday I did great job with my application, you can check it out on my page",
@@ -43,6 +58,7 @@
       },
       {
         "id": "6",
+        "ownerID": "2",
         "name": "Karen",
         "date": "1/01/2022",
         "text": "Merry Christmas and a happy New Year",
@@ -51,6 +67,7 @@
       },
       {
         "id": "7",
+        "ownerID": "1",
         "name": "Alex",
         "date": "17/05/2021",
         "text": "My car is in service center now, I can`t visit you",
@@ -61,6 +78,7 @@
       {
         "id": "8",
         "name": "Hayk",
+        "ownerID": "2",
         "date": "21/03/2020",
         "text": "So, what is up with that job?",
         "textColor": "black",
@@ -68,6 +86,7 @@
       },
       {
         "id": "9",
+        "ownerID": "2",
         "name": "Karen",
         "date": "13/07/2021",
         "text": "Have you ever thought about living in another country?",
